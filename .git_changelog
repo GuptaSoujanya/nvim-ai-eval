@@ -12,3 +12,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2026-04-20] docs: add installation guide for lazy.nvim, packer.nvim, and vim-plug in README
 - [2026-05-05] feat: statusline: provide lualine component for active LLM generation latency
 - [2026-05-20] fix: handle window resize events gracefully without clipping border
+- [2026-06-03] docs: add terminal screenshots of floating window benchmark reports

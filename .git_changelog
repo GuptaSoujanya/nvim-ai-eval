@@ -16,3 +16,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2026-06-18] feat: syntax: add syntax highlighting rules for benchmark result buffers
 - [2026-07-03] feat: keymaps: add default keybindings <leader>eb and <leader>el
 - [2026-07-18] perf: throttle floating window redraws to 30fps during active runs
+- [2026-08-01] fix: handle process termination cleanly when buffer is closed early

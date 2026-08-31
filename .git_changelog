@@ -1,20 +1,10 @@
-# Engineering Changelog: nvim-ai-eval
-
-Inception Date: 2026-01-22
-Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
-
-- [2026-01-22] chore: scaffold nvim-ai-eval Lua plugin directory structure
-- [2026-02-05] feat: lua: implement plugin setup() configuration handler with user options
-- [2026-02-20] feat: commands: register :AIEvalBenchmark and :AIEvalLatency user commands
-- [2026-03-07] feat: ui: implement floating window buffer displaying benchmark results
-- [2026-03-22] feat: async: use vim.loop (libuv) for non-blocking benchmark execution
-- [2026-04-05] test: add plenary.nvim test suite for plugin configuration defaults
-- [2026-04-20] docs: add installation guide for lazy.nvim, packer.nvim, and vim-plug in README
-- [2026-05-05] feat: statusline: provide lualine component for active LLM generation latency
-- [2026-05-20] fix: handle window resize events gracefully without clipping border
-- [2026-06-03] docs: add terminal screenshots of floating window benchmark reports
-- [2026-06-18] feat: syntax: add syntax highlighting rules for benchmark result buffers
-- [2026-07-03] feat: keymaps: add default keybindings <leader>eb and <leader>el
-- [2026-07-18] perf: throttle floating window redraws to 30fps during active runs
-- [2026-08-01] fix: handle process termination cleanly when buffer is closed early
-- [2026-08-16] chore: bump version to v1.0.1 and format Lua source with stylua
+[2024-04-23T15:16:45] chore: scaffold: initialize nvim-ai-eval Neovim Lua plugin architecture
+[2024-05-23T14:30:20] feat: core: implement setup function and configuration validator
+[2024-07-20T19:47:17] feat: commands: register AIEvalBenchmark user command in Neovim
+[2024-08-23T19:50:06] feat: commands: register AIEvalLatency user command for prompt inspection
+[2024-10-04T17:40:48] feat: ui: add floating window popup telemetry dashboard
+[2025-02-17T19:45:47] perf: implement asynchronous libuv process spawning for non-blocking UI
+[2025-03-17T18:15:36] docs: complete production README with lazy.nvim and packer installation recipes
+[2026-04-04T11:44:55] feat: core: add Ollama and llama.cpp local server auto-detection
+[2026-06-04T19:51:15] fix: handle empty buffer edge cases during code completion checks
+[2026-06-05T15:32:19] chore: release v0.2.0 with Neovim 0.10 support

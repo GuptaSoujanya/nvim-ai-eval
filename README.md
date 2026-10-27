@@ -39,3 +39,5 @@ MIT License (c) 2024 Soujanya Gupta.
 <!-- PR #26: perf: optimize memory buffer reuse during batch evaluation -->
 
 <!-- PR #39: test: expand edge case coverage for empty input strings -->
+
+<!-- PR #52: refactor: clean up typing annotations across core modules -->

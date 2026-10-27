@@ -41,3 +41,5 @@ MIT License (c) 2024 Soujanya Gupta.
 <!-- PR #39: test: expand edge case coverage for empty input strings -->
 
 <!-- PR #52: refactor: clean up typing annotations across core modules -->
+
+<!-- PR #65: docs: add hardware environment specifications to README -->

@@ -32,3 +32,4 @@ A blazing-fast Neovim plugin written in Lua for triggering local AI model evalua
 ## License
 
 MIT License (c) 2024 Soujanya Gupta.
+<!-- CI Status: Verified -->

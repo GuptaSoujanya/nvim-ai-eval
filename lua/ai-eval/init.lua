@@ -14,3 +14,5 @@ function M.profile_latency()
 end
 
 return M
+
+-- border styling: rounded
